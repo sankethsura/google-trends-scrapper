@@ -6,4 +6,5 @@ const trendingTopicSchema = new mongoose.Schema({
     timestamp: { type: Date, default: Date.now }
 });
 
+
 const TrendingTopic = mongoose.model('TrendingTopic', trendingTopicSchema);
